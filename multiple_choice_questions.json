@@ -1,0 +1,484 @@
+[
+  {
+    "type": "multiple_choice",
+    "question": "What is the primary function of packet switches within the Internet?",
+    "options": ["A) To provide dynamic IP addresses to hosts", "B) To forward packets to their destination", "C) To increase the speed of the Internet connection", "D) To encrypt data being transmitted over the network"],
+    "answer": "B) To forward packets to their destination"
+  },
+  {
+    "type": "true_false",
+    "question": "The Internet is exclusively made up of fiber optic cables.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which of the following is considered a part of the network edge?",
+    "options": ["A) Routers", "B) End systems", "C) Packet switches", "D) Core networks"],
+    "answer": "B) End systems"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "If an Internet user is experiencing slow video streaming, which performance metric is most likely being affected?",
+    "options": ["A) Delay", "B) Loss", "C) Throughput", "D) Protocol"],
+    "answer": "C) Throughput"
+  },
+  {
+    "type": "true_false",
+    "question": "Circuit switching involves setting up a dedicated communication path between two endpoints before the actual data transmission begins.",
+    "answer": "True"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Considering a scenario where data packets are frequently dropped, which component of the network's architecture should be investigated first?",
+    "options": ["A) Network edge", "B) Network core", "C) Access networks", "D) Protocol layers"],
+    "answer": "B) Network core"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "In a situation where a network is under a DDoS attack, which of the following security mechanisms could potentially mitigate the impact?",
+    "options": ["A) Intrusion detection systems", "B) Use of stronger encryption algorithms", "C) Installing more access points", "D) Upgrading to faster switches"],
+    "answer": "A) Intrusion detection systems"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which architectural framework would be most suitable for an application requiring all devices to act both as clients and servers?",
+    "options": ["A) Client-server", "B) Peer-to-peer", "C) Hybrid", "D) Mainframe-based"],
+    "answer": "B) Peer-to-peer"
+  },
+  {
+    "type": "true_false",
+    "question": "Transport-layer services are uniform and provide the same functionalities to all applications regardless of their specific requirements.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What HTTP method is typically used to submit form data to a server?",
+    "options": ["A) GET", "B) POST", "C) DELETE", "D) PUT"],
+    "answer": "B) POST"
+  },
+  {
+    "type": "true_false",
+    "question": "HTTP persistent connections allow multiple requests and responses between a client and server over a single connection.",
+    "answer": "True"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which protocol is primarily used for receiving email from a server?",
+    "options": ["A) SMTP", "B) POP3", "C) IMAP", "D) HTTP"],
+    "answer": "C) IMAP"
+  },
+  {
+    "type": "true_false",
+    "question": "SMTP uses a push mechanism to send emails to the recipient’s email server.",
+    "answer": "True"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What type of DNS server primarily responds with authoritative data for domain names that are directly within its responsible domain?",
+    "options": ["A) Root DNS server", "B) TLD DNS server", "C) Authoritative DNS server", "D) Local DNS server"],
+    "answer": "C) Authoritative DNS server"
+  },
+  {
+    "type": "true_false",
+    "question": "The DNS system is entirely decentralized.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which protocol is known for its efficiency in distributing large files across multiple peers?",
+    "options": ["A) HTTP", "B) SMTP", "C) BitTorrent", "D) IMAP"],
+    "answer": "C) BitTorrent"
+  },
+  {
+    "type": "true_false",
+    "question": "In a peer-to-peer network, nodes rely on a central server to facilitate all communications.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which of the following is NOT a primary service provided by the transport layer?",
+    "options": ["A) Reliable data transfer", "B) Flow control", "C) Route optimization", "D) Congestion control"],
+    "answer": "C) Route optimization"
+  },
+  {
+    "type": "true_false",
+    "question": "Multiplexing at the transport layer involves combining data from multiple applications into a single stream for transmission over the network.",
+    "answer": "True"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is the purpose of demultiplexing at the transport layer?",
+    "options": ["A) To combine multiple data streams into one", "B) To split incoming data back to the respective applications", "C) To increase the speed of data transfer", "D) To decrease the reliability of the data transfer"],
+    "answer": "B) To split incoming data back to the respective applications"
+  },
+  {
+    "type": "true_false",
+    "question": "Multiplexing only occurs at the transport layer.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which characteristic makes UDP suitable for applications that require fast, efficient delivery?",
+    "options": ["A) Connection-oriented service", "B) Reliable data transfer", "C) Low overhead", "D) High overhead"],
+    "answer": "C) Low overhead"
+  },
+  {
+    "type": "true_false",
+    "question": "UDP guarantees delivery of data packets.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which protocol is primarily concerned with the reliable transfer of data?",
+    "options": ["A) HTTP", "B) UDP", "C) TCP", "D) DNS"],
+    "answer": "C) TCP"
+  },
+  {
+    "type": "true_false",
+    "question": "Reliable data transfer protocols do not need mechanisms for error detection.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What does TCP use to ensure data is transferred reliably?",
+    "options": ["A) Packet loss ignorance", "B) Congestion maximization", "C) Connection establishment and error correction", "D) Stateless transmission"],
+    "answer": "C) Connection establishment and error correction"
+  },
+  {
+    "type": "true_false",
+    "question": "TCP uses a three-way handshake mechanism to establish a connection.",
+    "answer": "True"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which part of the router is primarily responsible for deciding the path that the packets take through the network?",
+    "options": ["A) Data plane", "B) Control plane", "C) Access plane", "D) Management plane"],
+    "answer": "B) Control plane"
+  },
+  {
+    "type": "true_false",
+    "question": "The control plane performs the actual transmission of data packets between routers.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which component of a router is crucial for moving packets between input and output ports efficiently?",
+    "options": ["A) Routing processor", "B) Switching fabric", "C) Power supply", "D) Network interface"],
+    "answer": "B) Switching fabric"
+  },
+  {
+    "type": "true_false",
+    "question": "Routers primarily use the switching fabric to direct the flow of network traffic.",
+    "answer": "True"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What information is NOT part of an IP datagram header?",
+    "options": ["A) Source IP address", "B) Destination IP address", "C) Password", "D) Time-to-Live (TTL)"],
+    "answer": "C) Password"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "How do IPv4 and IPv6 addresses differ?",
+    "options": ["A) IPv6 addresses are shorter and use decimal notation.", "B) IPv4 addresses are longer and use hexadecimal notation.", "C) IPv6 addresses are longer and use hexadecimal notation.", "D) IPv4 and IPv6 addresses are both the same length and use binary notation."],
+    "answer": "C) IPv6 addresses are longer and use hexadecimal notation."
+  },
+  {
+    "type": "true_false",
+    "question": "Fragmentation of IP datagrams is handled at the destination.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which network layer function is essential for managing the allocation and organization of IP addresses?",
+    "options": ["A) NAT", "B) DHCP", "C) ARP", "D) SNMP"],
+    "answer": "B) DHCP"
+  },
+  {
+    "type": "true_false",
+    "question": "Network Address Translation (NAT) allows multiple devices on a private network to share a single public IP address.",
+    "answer": "True"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "If a network engineer needs to ensure that packets are delivered to multiple sub-networks within a large organization, which practice will be most critical?",
+    "options": ["A) Implementing Network Address Translation (NAT)", "B) Configuring Dynamic Host Configuration Protocol (DHCP)", "C) Designing a proper IP subnetting scheme", "D) Setting up Physical Address Translation (PAT)"],
+    "answer": "C) Designing a proper IP subnetting scheme"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is the primary role of the control plane in a network?",
+    "options": ["A) To encrypt data packets", "B) To manage the physical switch configuration", "C) To manage how data packets are routed across networks", "D) To provide a user interface for network management"],
+    "answer": "C) To manage how data packets are routed across networks"
+  },
+  {
+    "type": "true_false",
+    "question": "The control plane generates data traffic.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which routing protocol relies on each router having a complete view of the network’s topology to select the best path?",
+    "options": ["A) RIP", "B) OSPF", "C) BGP", "D) EIGRP"],
+    "answer": "B) OSPF"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Distance Vector Routing protocols determine the best path based on:",
+    "options": ["A) The physical distance to the destination", "B) The number of hops to the destination", "C) The amount of traffic on the path", "D) The speed of the connection to the destination"],
+    "answer": "B) The number of hops to the destination"
+  },
+  {
+    "type": "true_false",
+    "question": "OSPF uses Bellman-Ford algorithm to compute the best routing path.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "In OSPF, the process that allows routers to discover each other and establish communications is known as:",
+    "options": ["A) Routing Information Protocol", "B) Handshake Protocol", "C) Hello Protocol", "D) Acknowledgment Protocol"],
+    "answer": "C) Hello Protocol"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is the primary purpose of ICMP in network operations?",
+    "options": ["A) To prioritize traffic", "B) To report errors and operational information", "C) To encrypt data", "D) To authenticate network devices"],
+    "answer": "B) To report errors and operational information"
+  },
+  {
+    "type": "true_false",
+    "question": "ICMP is used for routing data packets.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What does SNMP primarily use to gather and organize information about managed devices on IP networks?",
+    "options": ["A) Management Information Bases (MIBs)", "B) Distributed Network Protocols (DNPs)", "C) Simple Network Time Protocols (SNTPs)", "D) Control Access Bases (CABs)"],
+    "answer": "A) Management Information Bases (MIBs)"
+  },
+  {
+    "type": "true_false",
+    "question": "SNMP can only monitor devices within the same local network.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is a primary function of the link layer in network communication?",
+    "options": ["A) Routing across internetworks", "B) Encrypting data", "C) Framing data for transmission", "D) Assigning IP addresses"],
+    "answer": "C) Framing data for transmission"
+  },
+  {
+    "type": "true_false",
+    "question": "Link layer implementations are generally software-based and run on the system’s main processor.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which error detection method involves the sender adding a redundant bit that makes the number of 1's either even or odd?",
+    "options": ["A) Checksum", "B) Parity check", "C) Cyclic Redundancy Check (CRC)", "D) Hamming code"],
+    "answer": "B) Parity check"
+  },
+  {
+    "type": "true_false",
+    "question": "Error correction is always applied in the link layer to ensure no data is corrupted.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "CSMA/CD is a protocol that is used primarily in which type of network?",
+    "options": ["A) Wireless LAN", "B) Ethernet LAN", "C) MPLS Networks", "D) Internet"],
+    "answer": "B) Ethernet LAN"
+  },
+  {
+    "type": "true_false",
+    "question": "In environments with high collision potentials, such as a busy Ethernet network, CSMA/CD can significantly increase network efficiency.",
+    "answer": "True"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What does ARP do in a network?",
+    "options": ["A) Converts MAC addresses into IP addresses", "B) Converts IP addresses into MAC addresses", "C) Assigns new IP addresses", "D) Monitors network traffic"],
+    "answer": "B) Converts IP addresses into MAC addresses"
+  },
+  {
+    "type": "true_false",
+    "question": "Ethernet uses a token passing scheme to manage data transmission between computers.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "MPLS improves the speed of the network by using:",
+    "options": ["A) Longer network addresses", "B) Path labels for routing", "C) Deep packet inspection", "D) Hierarchical IP addressing"],
+    "answer": "B) Path labels for routing"
+  },
+  {
+    "type": "true_false",
+    "question": "MPLS can only be used in large-scale networks like those of Internet service providers.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which of the following is NOT a function of the transport layer?",
+    "options": ["A) Reliable data transfer", "B) Flow control", "C) Routing", "D) Congestion control"],
+    "answer": "C) Routing"
+  },
+  {
+    "type": "true_false",
+    "question": "UDP provides reliable data transfer.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "In a TCP connection, what mechanism is used to establish a connection?",
+    "options": ["A) Two-way handshake", "B) Four-way handshake", "C) Three-way handshake", "D) Simple handshake"],
+    "answer": "C) Three-way handshake"
+  },
+  {
+    "type": "true_false",
+    "question": "The primary function of the control plane is to forward packets.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which protocol uses sequence numbers and acknowledgments for reliable data transfer?",
+    "options": ["A) UDP", "B) TCP", "C) IP", "D) ICMP"],
+    "answer": "B) TCP"
+  },
+  {
+    "type": "true_false",
+    "question": "ICMP is used for error reporting and diagnostics in networks.",
+    "answer": "True"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is the main purpose of the Simple Network Management Protocol (SNMP)?",
+    "options": ["A) Encrypting data", "B) Managing network devices", "C) Controlling network congestion", "D) Establishing connections"],
+    "answer": "B) Managing network devices"
+  },
+  {
+    "type": "true_false",
+    "question": "Link-state routing protocols use the entire network topology to determine the best path.",
+    "answer": "True"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which of the following is a characteristic of UDP?",
+    "options": ["A) Connection-oriented", "B) High overhead", "C) Reliable delivery", "D) Low overhead"],
+    "answer": "D) Low overhead"
+  },
+  {
+    "type": "true_false",
+    "question": "TCP's congestion control mechanisms include algorithms like TCP Tahoe and TCP Reno.",
+    "answer": "True"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What does TCP stand for?",
+    "options": ["A) Transmission Control Protocol", "B) Transfer Connection Protocol", "C) Transport Communication Protocol", "D) Transfer Control Protocol"],
+    "answer": "A) Transmission Control Protocol"
+  },
+  {
+    "type": "true_false",
+    "question": "UDP stands for User Datagram Protocol.",
+    "answer": "True"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which layer of the OSI model does the transport layer correspond to?",
+    "options": ["A) Layer 2", "B) Layer 3", "C) Layer 4", "D) Layer 5"],
+    "answer": "C) Layer 4"
+  },
+  {
+    "type": "true_false",
+    "question": "TCP is a connectionless protocol.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which of the following protocols is used for email transmission?",
+    "options": ["A) FTP", "B) HTTP", "C) SMTP", "D) SNMP"],
+    "answer": "C) SMTP"
+  },
+  {
+    "type": "true_false",
+    "question": "IP stands for Internet Protocol.",
+    "answer": "True"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which port number is commonly used by HTTP?",
+    "options": ["A) 21", "B) 25", "C) 80", "D) 110"],
+    "answer": "C) 80"
+  },
+  {
+    "type": "true_false",
+    "question": "ICMP is used by the ping command to test connectivity.",
+    "answer": "True"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is the main function of DNS?",
+    "options": ["A) To translate domain names to IP addresses", "B) To send emails", "C) To transfer files", "D) To secure data"],
+    "answer": "A) To translate domain names to IP addresses"
+  },
+  {
+    "type": "true_false",
+    "question": "FTP is used for transferring files over the internet.",
+    "answer": "True"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which of the following is a feature of IPv6?",
+    "options": ["A) 32-bit address space", "B) 128-bit address space", "C) 64-bit address space", "D) 16-bit address space"],
+    "answer": "B) 128-bit address space"
+  },
+  {
+    "type": "true_false",
+    "question": "SMTP is used for retrieving emails from a server.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which layer in the OSI model is responsible for routing?",
+    "options": ["A) Data Link Layer", "B) Network Layer", "C) Transport Layer", "D) Application Layer"],
+    "answer": "B) Network Layer"
+  },
+  {
+    "type": "true_false",
+    "question": "The purpose of flow control is to ensure that a sender does not overwhelm a receiver with too much data.",
+    "answer": "True"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which protocol is known for its use in secure communication over IP networks?",
+    "options": ["A) FTP", "B) SSH", "C) Telnet", "D) HTTP"],
+    "answer": "B) SSH"
+  },
+  {
+    "type": "true_false",
+    "question": "IPv4 addresses are 64 bits long.",
+    "answer": "False"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is the main purpose of the ARP protocol?",
+    "options": ["A) To resolve IP addresses to MAC addresses", "B) To encrypt data", "C) To transfer files", "D) To manage email"],
+    "answer": "A) To resolve IP addresses to MAC addresses"
+  },
+  {
+    "type": "true_false",
+    "question": "TCP ensures data integrity and reliability through the use of checksums, acknowledgments, and sequence numbers.",
+    "answer": "True"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which port number is used by DNS?",
+    "options": ["A) 53", "B) 25", "C) 110", "D) 143"],
+    "answer": "A) 53"
+  },
+  {
+    "type": "true_false",
+    "question": "The transport layer can use both TCP and UDP protocols.",
+    "answer": "True"
+  }
+]

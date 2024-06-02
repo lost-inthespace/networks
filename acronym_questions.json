@@ -1,0 +1,86 @@
+[
+  {
+    "section": "Computer Networking Basics",
+    "acronym": "TCP/IP",
+    "definition": "Transmission Control Protocol/Internet Protocol",
+    "description": "A suite of communication protocols used to interconnect network devices on the internet."
+  },
+  {
+    "section": "Web and HTTP",
+    "acronym": "HTTP",
+    "definition": "Hypertext Transfer Protocol",
+    "description": "The protocol used for transmitting web pages over the Internet."
+  },
+  {
+    "section": "Web and HTTP",
+    "acronym": "SMTP",
+    "definition": "Simple Mail Transfer Protocol",
+    "description": "A protocol used for sending emails across the Internet."
+  },
+  {
+    "section": "Web and HTTP",
+    "acronym": "POP3",
+    "definition": "Post Office Protocol version 3",
+    "description": "A protocol used to retrieve emails from a mail server."
+  },
+  {
+    "section": "Web and HTTP",
+    "acronym": "IMAP",
+    "definition": "Internet Message Access Protocol",
+    "description": "A more advanced protocol than POP3 for retrieving emails from a server."
+  },
+  {
+    "section": "Transport Layer",
+    "acronym": "UDP",
+    "definition": "User Datagram Protocol",
+    "description": "A connectionless protocol that allows for fast, efficient delivery but does not guarantee delivery."
+  },
+  {
+    "section": "Transport Layer",
+    "acronym": "TCP",
+    "definition": "Transmission Control Protocol",
+    "description": "Provides reliable, ordered, and error-checked delivery of a stream of data between applications running on hosts communicating over an IP network."
+  },
+  {
+    "section": "Network Layer",
+    "acronym": "IP",
+    "definition": "Internet Protocol",
+    "description": "A method or protocol by which data is sent from one computer to another on the Internet."
+  },
+  {
+    "section": "Network Layer",
+    "acronym": "ICMP",
+    "definition": "Internet Control Message Protocol",
+    "description": "Used by network devices, including routers, to send error messages and operational information indicating, for example, that a requested service is not available or that a host or router could not be reached."
+  },
+  {
+    "section": "Network Layer",
+    "acronym": "SNMP",
+    "definition": "Simple Network Management Protocol",
+    "description": "An Internet Standard protocol for collecting and organizing information about managed devices on IP networks and for modifying that information to change device behavior."
+  },
+  {
+    "section": "Routing and Protocols",
+    "acronym": "OSPF",
+    "definition": "Open Shortest Path First",
+    "description": "A link-state routing protocol used within an Autonomous System to distribute routing information between routers."
+  },
+  {
+    "section": "Routing and Protocols",
+    "acronym": "MPLS",
+    "definition": "Multiprotocol Label Switching",
+    "description": "A technique in high-performance telecommunications networks that directs data from one network node to the next based on short path labels rather than long network addresses."
+  },
+  {
+    "section": "Link Layer Services",
+    "acronym": "ARP",
+    "definition": "Address Resolution Protocol",
+    "description": "A communication protocol used for discovering the link layer address, such as a MAC address, associated with a given internet layer address, typically an IPv4 address."
+  },
+  {
+    "section": "Link Layer Services",
+    "acronym": "CSMA/CD",
+    "definition": "Carrier Sense Multiple Access with Collision Detection",
+    "description": "A network multiple access method used by Ethernet technology to manage data transmission and avoid collisions."
+  }
+]

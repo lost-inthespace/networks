@@ -1,0 +1,249 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* General styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(-45deg, #c2b280, #d8c28d, #e5d1a4, #c2b280);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  color: #2c3e50;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#main-container, #quiz-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px;
+  text-align: left;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.start-container {
+  padding: 40px 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.start-container h2 {
+  margin-bottom: 20px;
+}
+
+.start-container p {
+  margin-bottom: 20px;
+}
+
+.start-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.start-container input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.start-container button {
+  padding: 12px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: #8a9a5b;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  transition: all 0.5s ease;
+}
+
+.start-container button:hover {
+  background-color: #72824a;
+  box-shadow: rgba(114, 130, 74, 0.5) 0px 7px 29px 0px;
+}
+
+.main-menu-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 12px 20px;
+  border-radius: 40px;
+  background-color: #8a9a5b;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-menu-button:hover {
+  background-color: #72824a;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.progress-container {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 25px;
+  margin: 15px 0;
+}
+
+.progress-bar {
+  width: 0%;
+  height: 20px;
+  background-color: #4caf50;
+  border-radius: 25px;
+}
+
+#button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+button {
+  padding: 12px 30px;
+  border-radius: 40px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: all 0.5s ease;
+  width: 45%;
+  box-sizing: border-box;
+  text-align: center;
+  color: black;
+}
+
+button.quiz-button {
+  padding: 17px 40px;
+  border-radius: 50px;
+  font-size: 15px;
+  width: 100%;
+  max-width: 200px;
+}
+
+button:hover {
+  letter-spacing: 3px;
+  background-color: #8a9a5b;
+  color: white;
+  box-shadow: rgba(138, 154, 91, 0.5) 0px 7px 29px 0px;
+}
+
+button:active {
+  letter-spacing: 3px;
+  background-color: #72824a;
+  color: white;
+  box-shadow: rgba(114, 130, 74, 0.5) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+h1, p, button {
+  color: #2c3e50;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
+  #main-container, #quiz-container, .start-container {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  button {
+    width: 100%;
+    margin: 5px 0;
+    font-size: 16px;
+  }
+}
+
+footer {
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(135deg, #b49b7c 0%, #8c704a 100%);
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+#greeting {
+  font-size: 24px;
+  color: #333;
+}
+
+.marks-badge {
+  display: inline-block;
+  background-color: #8a9a5b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.feedback {
+  margin-top: 20px;
+  font-weight: bold;
+}

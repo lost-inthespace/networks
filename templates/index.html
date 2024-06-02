@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Application</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div id="main-container">
+  <nav class="navbar">
+    <h1>Quiz Application</h1>
+  </nav>
+  <div class="progress-container">
+    <div class="progress-bar" id="progress-bar"></div>
+  </div>
+  <h1>Check your Knowledge before Final!</h1>
+  <p id="greeting"></p>
+
+  <div id="score-container">
+    <p id="marks" class="marks-badge"></p>
+  </div>
+
+  <div id="button-container">
+    <a href="{{ url_for('multiple_choice') }}"><button class="quiz-button">Multiple Choice</button></a>
+    <a href="{{ url_for('acronym') }}"><button class="quiz-button">Acronym Answers</button></a>
+  </div>
+</div>
+<footer>
+  <p>&copy; 2024 Quiz Application. All rights reserved.</p>
+</footer>
+<script>
+  // Greet the user
+  const userName = localStorage.getItem('userName');
+  if (!userName) {
+    const name = prompt('Please enter your name:');
+    if (name) {
+      localStorage.setItem('userName', name);
+      document.getElementById('greeting').innerText = `Welcome, ${name}!`;
+    }
+  } else {
+    document.getElementById('greeting').innerText = `Welcome back, ${userName}!`;
+  }
+
+  // Display marks
+  const multipleChoiceScore = localStorage.getItem('multipleChoiceScore');
+  const acronymScore = localStorage.getItem('acronymScore');
+  let marksText = 'Your marks:';
+  if (multipleChoiceScore) {
+    marksText += ` Multiple Choice: ${multipleChoiceScore}`;
+  }
+  if (acronymScore) {
+    marksText += ` | Acronym: ${acronymScore}`;
+  }
+  if (multipleChoiceScore || acronymScore) {
+    document.getElementById('marks').innerText = marksText;
+  }
+
+  // Progress bar
+  function updateProgressBar() {
+    const progressBar = document.getElementById('progress-bar');
+    const totalScore = (parseInt(multipleChoiceScore) || 0) + (parseInt(acronymScore) || 0);
+    const progress = (totalScore / 20) * 100; // Assuming each quiz has 10 points
+    progressBar.style.width = `${progress}%`;
+  }
+  updateProgressBar();
+</script>
+</body>
+</html>

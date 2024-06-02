@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acronym Quiz</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div id="quiz-container">
+  <h2 id="progress"></h2>
+  <h3 id="question"></h3>
+  <div id="feedback" class="feedback"></div>
+  <input type="text" id="answer" placeholder="Enter your answer">
+  <div id="button-container">
+    <button id="back" onclick="previousQuestion()">Back</button>
+    <button id="submit" onclick="submitAcronymAnswer()">Submit</button>
+    <button id="next" onclick="nextAcronymQuestion()">Next</button>
+  </div>
+</div>
+<a href="{{ url_for('index') }}" class="main-menu-button">Main Menu</a>
+<footer>
+  <p>&copy; 2024 By Zmzmi</p>
+</footer>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

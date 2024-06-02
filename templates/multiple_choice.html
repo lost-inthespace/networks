@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Choice Quiz</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div id="quiz-container" style="display: none;">
+  <h2 id="progress"></h2>
+  <h3 id="question"></h3>
+  <div id="options"></div>
+  <div id="feedback" class="feedback"></div>
+  <div id="button-container">
+    <button id="back" onclick="previousQuestion()">Back</button>
+    <button id="submit" onclick="submitAnswer()">Submit</button>
+    <button id="next" onclick="nextQuestion()">Next</button>
+  </div>
+</div>
+<div id="start-container" class="start-container">
+  <h2>Welcome to the Multiple Choice Quiz!</h2>
+  <p>We have <span id="total-questions"></span> questions in our database.</p>
+  <label for="num-questions">How many questions would you like to answer?</label>
+  <input type="number" id="num-questions" name="num-questions" min="1" required>
+  <button onclick="startQuiz()">Start Quiz</button>
+</div>
+<a href="{{ url_for('index') }}" class="main-menu-button">Main Menu</a>
+<footer>
+  <p>&copy; 2024 By Zmzmi</p>
+</footer>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
